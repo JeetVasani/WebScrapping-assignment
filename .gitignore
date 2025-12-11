@@ -1,0 +1,27 @@
+# virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE clutter
+.vscode/
+*.code-workspace
+
+# Local data files
+*.xlsx
+*.csv
+*.html
+
+# Logs
+*.log
+
+# Environment files
+*.env
+.env.*
+
+# OS files
+Thumbs.db
+.DS_Store
