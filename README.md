@@ -8,7 +8,6 @@ This project is a practical web scraping pipeline built to enrich basic company 
 - **Language**: Python  
 - **Web Scraping**: Requests, BeautifulSoup  
 - **Data Processing**: Pandas  
-- **Excel Handling**: OpenPyXL  
 - **Concurrency**: concurrent.futures (ThreadPoolExecutor)  
 - **HTTP / Proxy Layer**: ScraperAPI  
 - **Utilities**: Standard Python libraries (re, json, urllib)
