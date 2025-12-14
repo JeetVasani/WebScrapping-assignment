@@ -1,3 +1,8 @@
+## Introduction
+This project is a practical web scraping pipeline built to enrich basic company information and collect recent job postings from official career pages. It focuses on using primary sources and common ATS platforms to ensure the extracted data is accurate, consistent, and easy to verify.
+
+---
+
 ### Input
 - **Excel file** containing the following base fields:
   - `company_name`
@@ -6,6 +11,7 @@
 These fields are used as the starting point for all discovery and enrichment steps.
 
 ---
+## How I created this pipline: 
 
 ### Step 1: Core Utilities and ATS Abstractions
 Reusable utility functions were implemented to support the pipeline.
@@ -96,3 +102,23 @@ Each job post column contains a verifiable job posting URL.
 - The pipeline prioritizes accuracy over coverage.
 - Not all companies are expected to have open job postings.
 - The system is deterministic and reproducible.
+
+---
+
+## Setup and Usage
+
+### Download
+Clone the repository locally:
+
+```bash
+git clone https://github.com/JeetVasani/WebScrapping-assignment.git
+cd WebScrapping-assignment
+```
+
+### Run
+
+``` bash
+python main_final.py
+```
+
+> Note: The pipeline requires a `SCRAPERAPI_KEY` to be set as an environment variable before running.
