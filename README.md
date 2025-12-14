@@ -3,7 +3,20 @@ This project is a practical web scraping pipeline built to enrich basic company 
 
 ---
 
-### Input
+## Tech Stack
+
+- **Language**: Python  
+- **Web Scraping**: Requests, BeautifulSoup  
+- **Data Processing**: Pandas  
+- **Excel Handling**: OpenPyXL  
+- **Concurrency**: concurrent.futures (ThreadPoolExecutor)  
+- **HTTP / Proxy Layer**: ScraperAPI  
+- **Utilities**: Standard Python libraries (re, json, urllib)
+
+
+---
+
+## Input
 - **Excel file** containing the following base fields:
   - `company_name`
   - `company_description`
@@ -98,7 +111,7 @@ Each job post column contains a verifiable job posting URL.
 
 ---
 
-### Notes
+## Notes
 - The pipeline prioritizes accuracy over coverage.
 - Not all companies are expected to have open job postings.
 - The system is deterministic and reproducible.
